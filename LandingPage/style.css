@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Quando&display=swap');
+/*font-family: 'Asap', sans-serif; font-family: 'Quando', serif; */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to top right, rgb(65, 41, 41), rgb(114, 32, 12));
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+    border-radius: 40%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Asap', sans-serif;
+    /*color: ;*/
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid blue;
+    margin-bottom: 22px;
+}
+
+.rodape {
+    border-top: 0.4px solid blue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
