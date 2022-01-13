@@ -41,14 +41,20 @@ body{
 
 .conteudo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 50px;
     border-top: 0.4px solid blue;
     padding: 20px;
     margin-bottom: 15px;
     font-family: 'Quando', serif;
+    font-size: 14px;
     color: azure;
     line-height: 1.8;
+}
+
+section {
+    border: 0.2px solid #eee7e7;
+    padding: 15px;
 }
 
 h2 {
