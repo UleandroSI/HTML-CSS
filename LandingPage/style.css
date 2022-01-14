@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(to top right, rgb(65, 41, 41), rgb(114, 32, 12));
+    background: linear-gradient(to top right, rgb(148, 110, 110), rgba(65, 32, 24, 0.938));
 }
 
 .cabecalho{
@@ -54,6 +54,10 @@ body{
 
 section {
     border: 0.2px solid #eee7e7;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 20%;
     padding: 15px;
 }
 
