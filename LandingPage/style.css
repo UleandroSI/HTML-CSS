@@ -41,6 +41,45 @@ body{
     font-size: 18px;
 }
 
+.cabecalho-menu-projetos{
+    background-image: url(https://img.icons8.com/bubbles/50/000000/reminders.png);
+    height: 70px;
+    width: 80px;
+    background-size: 100% auto;
+}
+.texto-projetos{
+    padding: 20px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transition: opacity .2s linear;
+    /*background-color: green;*/
+}
+.cabecalho-menu-projetos:hover .texto-projetos{
+    opacity: 0.8;
+}
+
+/* 
+.imagem{
+    background-image: url(imagem.jpg);
+    height: 300px;
+    widht: 400px;
+    background-size: 100% auto;
+}
+.texto{
+    padding: 20px;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: opacity .2s linear;
+    background-color: green;
+}
+.imagem:hover .texto{
+    opacity: 1;
+}
+*/
 .conteudo {
     max-height: 65%;
     min-height: 65%;
