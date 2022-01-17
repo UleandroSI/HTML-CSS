@@ -23,7 +23,7 @@ body{
     padding: 20px;
 }
 
-.cabecalho-imagem {
+.cabecalho-logo {
     height: 72px;
     border-radius: 40%;
 }
@@ -32,7 +32,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 35px;
+    /*gap: 35px;*/
 }
 
 .cabecalho-menu-item {
@@ -49,38 +49,93 @@ body{
     background-size: 100% auto;
 }
 .texto-projetos{
-    padding: 20px;
-    font-family: Arial;
+    height: 70px;
+    width: 80px;
+    padding: 10px;
+    line-height: 70px;
+    font-family: 'Asap', sans-serif;
     text-align: center;
     color: black;
     opacity: 0;
     transition: opacity .2s linear;
-    /*background-color: green;*/
+    background-color: rgb(175, 171, 171);
 }
 .cabecalho-menu-projetos:hover .texto-projetos{
     opacity: 0.8;
 }
 
-/* 
-.imagem{
-    background-image: url(imagem.jpg);
-    height: 300px;
-    widht: 400px;
+.cabecalho-menu-instagram{
+    background-image: url(https://img.icons8.com/bubbles/50/000000/instagram-new--v2.png);
+    height: 70px;
+    width: 80px;
     background-size: 100% auto;
 }
-.texto{
-    padding: 20px;
-    font-family: Arial;
+
+.texto-instagram{
+    height: 70px;
+    width: 80px;
+    padding: 10px;
+    line-height: 70px;
+    font-family: 'Asap', sans-serif;
     text-align: center;
-    color: white;
+    color: black;
     opacity: 0;
     transition: opacity .2s linear;
-    background-color: green;
+    background-color: rgb(175, 171, 171);
 }
-.imagem:hover .texto{
-    opacity: 1;
+
+.cabecalho-menu-instagram:hover .texto-instagram{
+    opacity: 0.8;
 }
-*/
+
+.cabecalho-menu-linkedin{
+    background-image: url(https://img.icons8.com/bubbles/50/000000/linkedin.png);
+    height: 70px;
+    width: 80px;
+    background-size: 100% auto;
+}
+
+.texto-linkedin{
+    height: 70px;
+    width: 80px;
+    padding: 10px;
+    line-height: 70px;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transition: opacity .2s linear;
+    background-color: rgb(175, 171, 171);
+}
+
+.cabecalho-menu-linkedin:hover .texto-linkedin{
+    opacity: 0.8;
+}
+
+.cabecalho-menu-social{
+    background-image: url(https://img.icons8.com/bubbles/50/000000/user-male.png);
+    height: 70px;
+    width: 80px;
+    background-size: 100% auto;
+}
+
+.texto-social{
+    height: 70px;
+    width: 80px;
+    padding: 10px;
+    line-height: 70px;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transition: opacity .2s linear;
+    background-color: rgb(175, 171, 171);
+}
+
+.cabecalho-menu-social:hover .texto-social{
+    opacity: 0.8;
+}
+
 .conteudo {
     max-height: 65%;
     min-height: 65%;
@@ -97,14 +152,6 @@ body{
     line-height: 1.8;
 }
 
-/*section {
-    border: 0.2px solid #eee7e7;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 20%;
-    padding: 1px;
-}*/
 
 h2 {
     text-decoration: underline;
@@ -117,7 +164,7 @@ h3 {
     max-height: 20%;
     border-top: 0.4px solid blue;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
