@@ -26,6 +26,9 @@ body{
     height: 72px;
     border-radius: 40%;
 }
+.cabecalho div p{
+    font-family: 'Quando', serif;
+}
 
 .cabecalho-menu {
     display: flex;
@@ -58,6 +61,7 @@ body{
     opacity: 0;
     transition: opacity .2s linear;
     background-color: rgb(175, 171, 171);
+    border-radius: 40%;
 }
 .cabecalho-menu-projetos:hover .texto-projetos{
     opacity: 0.8;
@@ -81,6 +85,7 @@ body{
     opacity: 0;
     transition: opacity .2s linear;
     background-color: rgb(175, 171, 171);
+    border-radius: 40%;
 }
 
 .cabecalho-menu-instagram:hover .texto-instagram{
@@ -105,6 +110,7 @@ body{
     opacity: 0;
     transition: opacity .2s linear;
     background-color: rgb(175, 171, 171);
+    border-radius: 40%;
 }
 
 .cabecalho-menu-linkedin:hover .texto-linkedin{
@@ -129,6 +135,7 @@ body{
     opacity: 0;
     transition: opacity .2s linear;
     background-color: rgb(175, 171, 171);
+    border-radius: 40%;
 }
 
 .cabecalho-menu-social:hover .texto-social{
@@ -168,4 +175,7 @@ h3 {
     justify-content: center;
     gap: 15px;
     padding: 20px;
+}
+.rodape-1{
+    justify-content: center;
 }
