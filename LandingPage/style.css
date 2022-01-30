@@ -8,8 +8,11 @@
 }
 
 body{
+    background-image: url("https://images.unsplash.com/photo-1512206845341-9206cd251a7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 100%;
-    /*background: linear-gradient(to top right, rgb(148, 110, 110), rgba(65, 32, 24, 0.938)); */
     height: 100vh;
 }
 
@@ -150,18 +153,14 @@ body{
     align-items: center;
     gap: 20px;
     border-top: 0.4px solid blue;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     margin-bottom: 15px;
     margin-left: 10px;
-    
     font-family: 'Quando', serif;
     font-size: 14px;
     /*color: azure;*/
     line-height: 1.8;
-    background-color: darkgrey;
+    background-color: rgb(241, 248, 248);
 }
 
 h2 {
@@ -172,23 +171,19 @@ h3 {
 }
 
 .conteudo-sobre{    
-    background-color: blue;
+    padding: 10px;
 }
 
 .conteudo-faço{
-    background-color: coral;
-    max-height: 80%;
+    padding: 10px;
 }
 
 .conteudo-quero{
-    background-color: darkmagenta;
     padding: 10px;
-    height: 80%;
-    max-height: 50%;
-    min-height: 300px;
 }
 
 .rodape {
+    margin-left: 10px;
     max-height: 20%;
     border-top: 0.4px solid blue;
     display: flex;
@@ -200,4 +195,8 @@ h3 {
 }
 .rodape-1{
     justify-content: center;
+}
+
+.rodape-2{
+    font-size: 23px;
 }
